@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+	
+
+.navbar{
+        	background-color: white;
+        	text-shadow: 2px 2px 2px grey;
+        }
+ #logo{
+        	background-color: skyblue;
+        	color: black;
+        	}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(Gun/rose.jpg);
+  background-color: grey;
+  z-index: 1;
+  cursor: pointer;
+}
+#overlay1{
+	position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(Gun/rose.jpg);
+  background-color: grey;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay2{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(Gun/rose.jpg);
+  background-color: grey;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay3{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: orange;
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: purple;
+  border-radius: 25px;
+  background-color: skyblue;
+  border-style: dotted;
+  border-color: purple;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+#text1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: purple;
+  background-color: skyblue;
+   border-style: dotted;
+  border-color: purple;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  background-color: skyblue;
+  border-radius: 25px;
+}
+
+#text2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: purple;
+  background-color: skyblue;
+   border-style: dotted;
+  border-color: purple;
+  border-radius: 25px;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#text3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: purple;
+   transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+img{
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: red;
+  
+}
+h3{
+ font-family: lucida calligraphy;
+ font-size: 50px;
+ text-shadow: 2px 2px 2px grey;
+ }
+button{
+  width: 500px;
+  height: 500px;
+
+  font-family: magneto;
+  background-color: purple;
+
+}
+h2{
+  font-size: 50px;
+}
+body{
+  background-color: black;
+}
+</style>
+
+</head>
+<body>
+<div class="col-xs-12" style="border-radius: 25px;">
+	<nav class="navbar navbar-primary" >
+		  <div class="container-fluid" style="background-color: ;">
+				    <div class="navbar-header" style="font-size: 25px" >
+				      <a class="navbar-brand" href="#" style="font-family: magneto; font-size: 35px;" id="logo">Julium</a>
+				    </div>
+			    <div class="navbar-body navbar-primary" style=" font-family: forte; font-size: 25px;">
+					    <ul class="nav navbar-nav" style="">
+					      <li class="active"><a href="HomeJt.html">Home</a></li>
+					      <li><a href="ServicesJT.html">Services</a></li>
+					      <li><a href="AboutUSJT.html">About Us</a></li>
+					      <li><a href="ContactUsJT.html">Contact Us</a></li>
+					    </ul>
+			    </div>		
+		  </div>
+	  </nav>
+<div class="row">	
+<div class="col-xs-5"> 
+<div id="overlay" onclick="off()">
+  <div id="text">
+    <h3> 
+      We help you create websites to your own specifications. We also help fix or modify already made website which you find unpleasant in order to make it more functional and appealing to the eye.
+
+    </h3>
+  </div>
+</div>
+
+<div style="padding:20px">
+  <button class="btn btn-primary" onclick="on()" style="border-radius: 25px"><h2>What We Do</h2></button>
+</div>
+</div>
+
+<div class="col-xs-offset-1 col-xs-5">
+<div id="overlay1" onclick="off1()">
+	<div id="text1">
+   <h3>
+     To create websites, we use web developing softwares along side cutting edge technologies to create our websites or modify it to your exact specifications.
+
+   </h3>
+  </div>
+</div>
+
+<div style="padding:20px">
+  <button class="btn btn-primary" onclick="on1()" style="border-radius: 25px"><h2>How It Is Done</h2></button>
+
+</div>
+</div>
+
+<div class="col-xs-5">
+<div id="overlay2" onclick="off2()">
+  <div id="text2">
+   <h3>
+     LOCATION: 
+     UNIT 4, JORDAN BROOKS ESTATE, CHIEF BAMIDELE STREET, OSAPA LONDON, LEKKI, LAGOS, NIGERIA.
+
+   </h3>
+  </div>
+</div>
+
+<div style="padding:20px">
+  <button class="btn btn-primary" style="border-radius: 25px;" onclick="on2()"><h2>Where It Is Done</h2></button>
+
+</div>
+</div>
+
+<div class="col-xs-offset-1 col-xs-5">
+<div id="overlay3" onclick="off3()">
+  <div id="text3" class="row">
+    <div class="col-xs-5">
+      <img src="Gun/uzom.jpg" style="" width="350px" height="350px">
+    </div>
+    <div class="col-xs-offset-1 col-xs-5">
+      <img src="Gun/kosi.jpg" style="" width="350px" height="350px">
+    </div>
+    <div class=" col-xs-5">
+      <img src="Gun/mordi.jpg" style=" margin-top: 6px;" width="350px" height="350px">
+    </div>
+    <div class="col-xs-offset-1 col-xs-5">
+      <img src="Gun/fun.jpg" style=" margin-top: 6px; border-style: groove;border-color: blue;" width="350px" height="350px">
+    </div>
+  </div>
+</div>
+
+<div style="padding:20px">
+  <button class="btn btn-primary" onclick="on3()" style="border-radius: 25px"><h2>Who Does It</h2></button>
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+	
+          function on() {
+  document.getElementById("overlay").style.display = "block";
+   alert("Click anywhere on the page to go back to previous menu!");
+}
+    function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+	
+          function on1() {
+  document.getElementById("overlay1").style.display = "block";
+  alert("Click anywhere on the page to go back to previous menu!");
+}
+    function off1() {
+  document.getElementById("overlay1").style.display = "none";
+}
+
+function on2() {
+  document.getElementById("overlay2").style.display = "block";
+  alert("Click anywhere on the page to go back to previous menu!");
+}
+    function off2() {
+  document.getElementById("overlay2").style.display = "none";
+}
+
+function on3() {
+  document.getElementById("overlay3").style.display = "block";
+  alert("Click anywhere on the page to go back to previous menu!");
+}
+    function off3() {
+  document.getElementById("overlay3").style.display = "none";
+}
+
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

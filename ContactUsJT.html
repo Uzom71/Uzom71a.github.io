@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+	
+	/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+
+}
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+h3{
+	font-family: Lucida Calligraphy;
+	text-shadow: 2px 2px 2px orange;
+}
+#img1{
+      border-radius: 16px;
+}
+#logo{
+	text-shadow: 4px 4px 3px grey;
+}
+.call{
+	font-family: Algerian;
+}
+#contact{
+	font-family: Lucida Calligraphy;
+	text-shadow: 2px 2px 2px grey;
+}
+.panel-footer{
+	font-family: Lucida Calligraphy;
+	text-shadow: 2px 2px 2px grey;
+}
+#Social{
+	font-family: Lucida Calligraphy;
+	text-shadow: 2px 2px 2px grey;
+}
+.panel-body{
+	background-color: ;
+}
+body{
+	background-color: black;
+}
+#bg1{
+  background-image: url(Gun/rose.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+ .navbar{
+        	background-color: white;
+        	text-shadow: 2px 2px 2px grey;
+        }
+ #logo{
+        	background-color: skyblue;
+        	color: black;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="container col-xs-12" style="border-radius: 25px;">
+	  <nav class="navbar navbar-primary" >
+		  <div class="container-fluid" style="background-color: ;">
+				    <div class="navbar-header" style="font-size: 25px" >
+				      <a class="navbar-brand" href="#" style="font-family: magneto; font-size: 35px;" id="logo">Julium</a>
+				    </div>
+			    <div class="navbar-body navbar-primary" style=" font-family: forte; font-size: 25px;">
+					    <ul class="nav navbar-nav" style="">
+					      <li class="active"><a href="HomeJt.html">Home</a></li>
+					      <li><a href="ServicesJT.html">Services</a></li>
+					      <li><a href="AboutUSJT.html">About Us</a></li>
+					      <li><a href="ContactUsJT.html">Contact Us</a></li>
+					    </ul>
+			    </div>		
+		  </div>
+	  </nav>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="panel panel-primary" style="margin: 3%; border-radius: 25px;">
+				<div class="panel-header" style="background-color: skyblue; padding: 5px; border-top-right-radius: 25px; border-top-left-radius: 25px">
+					
+					<h5>
+						 	<center>
+				                <p style="font-size: 35px; font-family: magneto" id="logo">Julium Limited</p>
+				                
+				            </center>
+				         </h5>
+
+				</div>
+				<div class="panel-body" style="border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;" id="bg1">
+					<div class="row"> 
+						
+					<div class="flip-container col-sm-offset-2 col-sm-5" ontouchstart="this.classList.toggle('hover');" id="div1">
+						
+						<div class="flipper">
+							<div class="front">
+								<!-- front content -->
+								<center>
+								 <h3>Telephone Lines</h3>
+								  <img src="Gun/card.jpg"  id="img1">
+								</center>
+							</div>
+							<div class="back">
+								<!-- back content -->
+
+								<div class="container-fluid" style="border-radius: 25px;">
+									<div class="form-row" style="margin: 1%">
+										<div class=" col-sm-12" style="display: inline" >
+											<div class=" panel panel-info " id="panel1" style="border-radius: 25px;">
+												<div class="panel-heading" style="padding: 12px;border-top-right-radius: 25px; border-top-left-radius: 25px">
+													<center>
+													   <h3>Phonebook</h3>
+													   
+													</center>
+												</div>
+											<div class="panel-body" style=" " id="contact">
+												<ul id="myTab" class="nav nav-tabs">
+													 <li class="active">
+								                <a href="#1st" data-toggle="tab" class="call"><span class="glyphicon glyphicon-phone"></span>Call:</a>
+								                
+								                     </li>
+								                  
+								            
+												</ul>
+
+												 <div id="form-row " class="tab-content" >
+									               <div class="tab-pane fade in active form-row" id="1st" >
+									                 <div class="form-group">
+									                  	<h5>Julius Afamefune: 07088912343</h5>
+									                </div>
+									                 <div class="">
+									                  <h5>Afamefune Ijekeye: 08022241675</h5><h5>Abikure Zino: 07063733962</h5>
+									                 </div>
+									     
+									                 <div>
+									                  
+									                 </div>
+
+									               </div>
+
+									             </div>
+									         </div>
+									             <div class="panel-footer" style="border-radius: 25px">
+									             	<center >
+									             	 <h6>Kurepay</h6>
+									             	 <h6><b>Powered</b></h6>
+									                </center>
+									             </div>
+
+
+									            </div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+						
+
+						</div>
+						<div class="col">
+							
+					<div class="flip-container col-sm-offset-1 col-sm-5" ontouchstart="this.classList.toggle('hover');" style="border-radius: 25px;">
+						
+						<div class="flipper">
+							<div class="front" id="Social">
+								<!-- front content -->
+								 <h3>Social Media</h3> 
+								 <img src="Gun/socialmedia.jpg" style="border-radius: 25px;">
+							</div>
+							<div class="back">
+								<!-- back content -->
+
+								<div class="container-fluid">
+									<div class="form-row" style="margin:1%">
+										<div class=" col-sm-12" style="display: inline">
+											<div class=" panel panel-info " id="panel1" style="border-radius: 25px;">
+								
+											<div class="panel-body" style=" ">
+												
+											 <div class="input">
+												   <h3 class="input-header " style="font-family: magneto; font-size: 30px; color: skyblue">Link Up On Social Media With:</h3>
+												  
+												 <div class="dropdown">
+												  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose...
+												  	<span class="caret"></span>
+												  </button>
+												  <ul class="dropdown-menu">
+												    <li><a href="https://gmail.com">Gmail</a></li>
+												    <li><a href="https://facebook.com">Facebook</a></li>
+												    <li><a href="https://instagram.com">Instagram</a></li>
+												    <li><a href="https://linkedin.com">LinkedIn</a></li>
+												    <li><a href="https:/Twitter.com">Twitter</a></li>
+												    
+												  </ul>
+												</div>
+											 </div>
+									             
+
+
+									            </div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+						</div>
+
+
+						</div>
+						<div class="col">
+							
+						</div>
+						<div class="col">
+							
+						</div>
+						<div class="col">
+							
+						</div>
+						
+					</div>
+
+
+
+				</div>
+				
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
